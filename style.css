@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header, section, footer {
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #444;
+}
+
+.projects .project, .skills ul, .contact p {
+  margin-bottom: 15px;
+}
+
+.projects .project a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #03dac6;
+  text-decoration: none;
+}
+
+.projects .project a:hover {
+  text-decoration: underline;
+}
+
+h1, h2 {
+  color: #ffffff;
+}
+
+ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+a {
+  color: #03dac6;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+}
+
+.skill-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.skill-badges span {
+  background-color: #1f1f1f;
+  color: #03dac6;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  border: 1px solid #03dac6;
+}
+
+.skill-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.skill-badges span {
+  background-color: #1f1f1f;
+  color: #03dac6;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  border: 1px solid #03dac6;
+}
+
+/* Horizontal social links */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.social-links a {
+  color: #03dac6;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 10px;
+  border: 1px solid #03dac6;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: #03dac6;
+  color: #121212;
+}
